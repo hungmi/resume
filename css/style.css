@@ -1,0 +1,131 @@
+body {	
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+
+.container {
+	color: white;
+	background-color: rgba(112,128,144,0.5);
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.content a {
+	color: white !important;
+	text-decoration: underline;
+}
+
+.nav a,
+.content a:hover {
+	color: AQUAMARINE !important;	
+}
+
+.content ul:last-child {
+	//margin-bottom: 50px;
+}
+
+.content ul > li > ul:last-child {
+	margin-bottom: 0px;
+}
+
+li {
+	padding:3px 0px;
+	font-size: 16px;
+}
+
+li:first-child {
+	padding-top:0px;
+}
+
+h1,h2,h3,h4,h5,p {
+	color: #fff;
+}
+
+button,
+.well small {
+	color: #333;
+}
+
+.well {
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 6px;
+}
+
+.center {
+	text-align: center;
+}
+
+hr {
+	border-color: #eee;
+}
+
+ul {
+	//list-style: none;
+}
+
+.gray * {
+	color: #222;
+}
+
+.gray:hover * {
+	color: #eee;
+}
+
+.highlight *{
+	color: yellow !important;
+}
+
+#reset {
+	color: white;
+}
+
+#work small {
+	color: #aaa;
+}
+
+div img {
+	margin-bottom: 30px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body {
+		padding-top: 40px;
+	}
+	body,
+	.container {
+		width: 900px;	
+	}	
+}
+
+@media (min-width: 1200px) {
+	body {
+		padding-top: 40px;
+	}
+	body,
+	.container {
+		width: 1150px;	
+	}
+	.content h2:first-child {
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 1450px) {
+	body {
+		padding-top: 40px;
+	}
+	body,
+	.container {
+		width: 1400px;	
+	}
+	.content h2:first-child {
+		margin-top: 0px;
+	}
+}
