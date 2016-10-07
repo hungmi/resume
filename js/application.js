@@ -1,13 +1,14 @@
 $(function(){
-	var All = $(".content > div > div");
-	$(".nav a").click(function(){
-		All.removeClass('highlight');
-		All.addClass('hide');
-		$($(this).attr('href')).removeClass('hide');
-		$($(this).attr('href')).addClass('highlight');
-	});
+	var All = $(".well");
+	var reset = function(){
+		All.removeClass('highlight')
+	}
 	$("#reset").click(function(){
-		All.removeClass('highlight');
-		All.removeClass('hide');
+		reset()
+	});
+	$(".nav a").click(function(){
+		reset()
+		$shown_well = $($(this).attr('href'))
+		$shown_well.toggleClass('highlight')
 	});
 });
