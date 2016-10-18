@@ -19,14 +19,17 @@
     </head>
 
     <body id="page-top">
-        <div class="container">
-            <h1><a id="reset" href="#">蔡鴻銘</a></h1>
-            <small>感謝您撥冗閱讀我的履歷，期待您的回應。</small>
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hungmihungmi@gmail.com" style="color:dodgerblue;font-weight:bold;">Email Now!</a>
-            <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="header">
+                    <h1><a id="reset" href="#">蔡鴻銘</a></h1>
+                    <small>感謝您撥冗閱讀我的履歷，期待您的回應。</small>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hungmihungmi@gmail.com" style="color:dodgerblue;font-weight:bold;">Email Now!</a>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-3 col-md-3 well" id="nav">
-                    <div class="text-center">
+                    <div class="text-center avatar-wrapper">
                         <img src="images/10477565_10152578368088707_3728282605610964447_o.jpg" width="160" height="160" align="center" id="avatar">
                     </div>
                     <h5 class="subtitle">聯絡資訊</h5>
@@ -68,144 +71,146 @@
                 </div> <!-- nav end -->
 
                 <div class="col-lg-9 col-md-9 content">
-                    <div class="col-lg-12 col-md-12 wells-wrapper">
-                        <div id="work" class="well">
-                            <h2>重要作品</h2>
-                            <ul>
-                                <h3>銷售管理系統</h3>
-                                <ul>
-                                    <li>協助廠商導入會員制。</li>
-                                    <li>重新規劃購物、下單流程，節省大量溝通成本。</li>
-                                    <li>重新規劃出貨流程，廠商出貨效率大幅提升。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>物流管理系統</h3>
-                                <ul>
-                                    <li>協助廠商重新規劃入庫、出貨、對帳流程。廠商出貨效率大幅提升。</li>
-                                    <li>透過即時儲存、同步的入庫介面，讓作業人員可以同時進行。</li>
-                                    <li>自動產生報表協助快速報關、宅配，避免人工錯誤且節省大量人工。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3><a href="http://crowdwatch.tw/" alt="CrowdWatch">Crowd Watch</a>：群眾觀點</h3>
-                                <ul>
-                                    <li>舊架構不符未來所需，須搬遷至新架構</li>
-                                    <li>撰寫 rake task 搬遷文章及圖片</li>
-                                    <li>瞭解管理者需求，改善後台體驗，例如：快速嵌入各平台影片、文章預覽、首頁管理</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3><a href="https://www.zuker.com.tw" alt="Zuker">Zuker</a>：學生租屋網</h3>
-                                <ul>
-                                    <li> 2016 年 AppWorks 入選</li>
-                                    <li>可按照房屋所在的學校、房屋擁有的傢俱設施、房屋擁有的房間數量、房屋的類型、房屋的出租狀態、租金高低等等進行搜尋，搜尋結果將列於地圖上供使用者方便判斷其地理位置</li>
-                                    <li>可使用FB註冊，並驗證其好友數量，提高會員身份真實性。</li>
-                                    <li>成為房東必須輸入簡訊驗證碼驗證其電話，保證身份真實性。</li>
-                                    <li>刊登房源即時儲存結果，並將按鈕加大，減少高齡房東操作困擾。</li>
-                                    <li>房屋與使用者兩者皆有評論機制，透過市場篩選出好物件。</li>
-                                    <li>伺服器使用 Heroku，並將圖片儲存於 Amazon。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3><a href="http://www.hcenginefan.com" alt="鴻昌機械">鴻昌機械</a>：詢價網站</h3>
-                                <ul>
-                                    <li>客戶註冊採 Devise + humanizer 驗證</li>
-                                    <li>客戶可填寫聯絡表單進行初步接觸。</li>
-                                    <li>後台管理員登入後可上架商品，並可編輯網頁靜態部分<br>(包含首頁 banner，聯絡資訊，關於我們)</li>
-                                    <li>前台後台皆可使用多字串搜尋所有商品</li>
-                                    <li>客戶登入後加入商品至詢價單，並調整數量，寄給管理員。</li>
-                                    <li>商品可多層分類。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3><a href="https://github.com/hungmi/swstock" alt="SWstock">SWstock</a>：庫存管理系統</h3>
-                                <ul>
-                                    <li>使用 Ransack 實現多欄位多字串搜尋</li>
-                                    <li>將所有搜尋結果彼此相異處以不同顏色標記，協助使用者判讀。</li>
-                                    <li>自動選取輸入欄或輸入文字，降低滑鼠選取的機率，絕大部分時間僅需使用鍵盤操作，大幅提升使用意願。</li>
-                                    <li>主要表單採用AJAX型式，使操作體驗接近 Excel，降低庫存人員轉換門檻。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>信為精密：生產管理系統 ( 此專案使用 VBA，非 Rails )</h3>
-                                <ul>
-                                    <li>整理所有逾期訂單。</li>
-                                    <li>彙整同一廠商所有訂單進度。</li>
-                                    <li>彙整同類產品所有訂單進度。</li>
-                                    <li>標記出資料相異處，協助人員進行判讀。</li>
-                                </ul>
-
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6 wells-wrapper">
-                        <div id="tool" class="well">
-                            <h2>專業技能</h2>
-                            <h3>網站開發及規劃</h3>
-                            <ul>
-                                <li>使用工具：Ruby on Rails, Bootstrap, jQuery, Sass, Git</li>
-                                <li>伺服器：AWS, Heroku, Cloudflare</li>
-                                <li>協作工具：Github, Slack, Hackpad</li>
-                                <li>開發環境：Mac，Sublime text。(初學時曾使用Ubuntu約三個月)</li>
-                            </ul>
-                        </div>
-                    
-                        <div id="experience" class="well">
-                            <h2>過往經歷</h2>
-
-                            <h3>2015 年後</h3>
-                            <ul>
-                                <li>自行接案：物流系統開發及規劃、銷售系統開發及規劃。</li>
-                                <li>貝殼放大：與設計師合作改版群眾觀點。</li>
-                                <li>租客平台：了解老闆需求，負責網站規劃、開發及維護。</li>
-                                <li>信為精密：生產管理系統、庫存管理系統規劃、開發及改版。</li>
-                            </ul>
-
-                            <h3>2015 年前</h3>
-                            <ul>
-                                <li>國立清華大學 動力機械系畢 ( 2007 ~ 2011 )</li>
-                                <li>國立交通大學 電控工程所畢 ( 2011 ~ 2013 )</li>
-                                <li>豐原調查局替代役 ( 2014 ~ 2015 )</li>
-                            </ul>
-                        </div>
-                    </div>
-                        
-                    <div class="col-lg-6 col-md-6 wells-wrapper">
-                        <div id="about" class="well">
-                            <h2>自我介紹</h2>
-                            <ul>
-                                <li>男性，27 歲，土生土長台中人</li>
-                                <li>個性：誠實，學習，有企圖心</li>
-                                <li>半年目標：
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wells-wrapper">
+                            <div id="work" class="well">
+                                <h2>重要作品</h2>
+                                <ul class="no-padding-left">
+                                    <h3>銷售管理系統</h3>
                                     <ul>
-                                        <li>熟悉 Vue.js、RSpec</li>
-                                        <li>學習 Growth Hack</li>
-                                        <li>養成運動習慣</li>
-                                        <li>去 3 個沒去過的景點遊玩。</li>
+                                        <li>協助廠商導入會員制。</li>
+                                        <li>重新規劃購物、下單流程，節省大量溝通成本。</li>
+                                        <li>重新規劃出貨流程，廠商出貨效率大幅提升。</li>
                                     </ul>
-                                <li>長期目標：遠端工作。</li>
-                                <li>興趣：美食、唱歌、桌遊、旅遊</li>
-                                <li>常用的網站、媒體：羅輯思維、得到、Medium、簡書、知乎。</li>
-                            </ul>
+
+                                    <hr>
+
+                                    <h3>物流管理系統</h3>
+                                    <ul>
+                                        <li>協助廠商重新規劃入庫、出貨、對帳流程。廠商出貨效率大幅提升。</li>
+                                        <li>透過即時儲存、同步的入庫介面，讓作業人員可以同時進行。</li>
+                                        <li>自動產生報表協助快速報關、宅配，避免人工錯誤且節省大量人工。</li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h3><a href="http://crowdwatch.tw/" alt="CrowdWatch">Crowd Watch</a>：群眾觀點</h3>
+                                    <ul>
+                                        <li>舊架構不符未來所需，須搬遷至新架構</li>
+                                        <li>撰寫 rake task 搬遷文章及圖片</li>
+                                        <li>瞭解管理者需求，改善後台體驗，例如：快速嵌入各平台影片、文章預覽、首頁管理</li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h3><a href="https://www.zuker.com.tw" alt="Zuker">Zuker</a>：學生租屋網</h3>
+                                    <ul>
+                                        <li> 2016 年 AppWorks 入選</li>
+                                        <li>可按照房屋所在的學校、房屋擁有的傢俱設施、房屋擁有的房間數量、房屋的類型、房屋的出租狀態、租金高低等等進行搜尋，搜尋結果將列於地圖上供使用者方便判斷其地理位置</li>
+                                        <li>可使用FB註冊，並驗證其好友數量，提高會員身份真實性。</li>
+                                        <li>成為房東必須輸入簡訊驗證碼驗證其電話，保證身份真實性。</li>
+                                        <li>刊登房源即時儲存結果，並將按鈕加大，減少高齡房東操作困擾。</li>
+                                        <li>房屋與使用者兩者皆有評論機制，透過市場篩選出好物件。</li>
+                                        <li>伺服器使用 Heroku，並將圖片儲存於 Amazon。</li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h3><a href="http://www.hcenginefan.com" alt="鴻昌機械">鴻昌機械</a>：詢價網站</h3>
+                                    <ul>
+                                        <li>客戶註冊採 Devise + humanizer 驗證</li>
+                                        <li>客戶可填寫聯絡表單進行初步接觸。</li>
+                                        <li>後台管理員登入後可上架商品，並可編輯網頁靜態部分<br>(包含首頁 banner，聯絡資訊，關於我們)</li>
+                                        <li>前台後台皆可使用多字串搜尋所有商品</li>
+                                        <li>客戶登入後加入商品至詢價單，並調整數量，寄給管理員。</li>
+                                        <li>商品可多層分類。</li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h3><a href="https://github.com/hungmi/swstock" alt="SWstock">SWstock</a>：庫存管理系統</h3>
+                                    <ul>
+                                        <li>使用 Ransack 實現多欄位多字串搜尋</li>
+                                        <li>將所有搜尋結果彼此相異處以不同顏色標記，協助使用者判讀。</li>
+                                        <li>自動選取輸入欄或輸入文字，降低滑鼠選取的機率，絕大部分時間僅需使用鍵盤操作，大幅提升使用意願。</li>
+                                        <li>主要表單採用AJAX型式，使操作體驗接近 Excel，降低庫存人員轉換門檻。</li>
+                                    </ul>
+
+                                    <hr>
+
+                                    <h3>信為精密：生產管理系統 ( 此專案使用 VBA，非 Rails )</h3>
+                                    <ul>
+                                        <li>整理所有逾期訂單。</li>
+                                        <li>彙整同一廠商所有訂單進度。</li>
+                                        <li>彙整同類產品所有訂單進度。</li>
+                                        <li>標記出資料相異處，協助人員進行判讀。</li>
+                                    </ul>
+
+                                </ul>
+                            </div>
                         </div>
 
-                        <div id="IAmGood" class="well">
-                            <h2>我的優勢</h2>
-                            <ul>
-                                <li>因為興趣而學習 Web 開發</li>
-                                <li>利用英文資源自學</li>
-                                <li>喜歡邏輯推理</li>
-                                <li>樂意合作解決問題</li>
-                                <li>喜歡進步</li>
-                            </ul>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wells-wrapper">
+                            <div id="tool" class="well">
+                                <h2>專業技能</h2>
+                                <h3>網站開發及規劃</h3>
+                                <ul>
+                                    <li>使用工具：Ruby on Rails, Bootstrap, jQuery, Sass, Git</li>
+                                    <li>伺服器：AWS, Heroku, Cloudflare</li>
+                                    <li>協作工具：Github, Slack, Hackpad</li>
+                                    <li>開發環境：Mac，Sublime text。(初學時曾使用Ubuntu約三個月)</li>
+                                </ul>
+                            </div>
+                        
+                            <div id="experience" class="well">
+                                <h2>過往經歷</h2>
+
+                                <h3>2015 年後</h3>
+                                <ul>
+                                    <li>自行接案：物流系統開發及規劃、銷售系統開發及規劃。</li>
+                                    <li>貝殼放大：與設計師合作改版群眾觀點。</li>
+                                    <li>租客平台：了解老闆需求，負責網站規劃、開發及維護。</li>
+                                    <li>信為精密：生產管理系統、庫存管理系統規劃、開發及改版。</li>
+                                </ul>
+
+                                <h3>2015 年前</h3>
+                                <ul>
+                                    <li>國立清華大學 動力機械系畢 ( 2007 ~ 2011 )</li>
+                                    <li>國立交通大學 電控工程所畢 ( 2011 ~ 2013 )</li>
+                                    <li>豐原調查局替代役 ( 2014 ~ 2015 )</li>
+                                </ul>
+                            </div>
+                        </div>
+                            
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wells-wrapper">
+                            <div id="about" class="well">
+                                <h2>自我介紹</h2>
+                                <ul>
+                                    <li>男性，27 歲，土生土長台中人</li>
+                                    <li>個性：誠實，學習，有企圖心</li>
+                                    <li>半年目標：
+                                        <ul>
+                                            <li>熟悉 Vue.js、RSpec</li>
+                                            <li>學習 Growth Hack</li>
+                                            <li>養成運動習慣</li>
+                                            <li>去 3 個沒去過的景點遊玩。</li>
+                                        </ul>
+                                    <li>長期目標：遠端工作。</li>
+                                    <li>興趣：美食、唱歌、桌遊、旅遊</li>
+                                    <li>常用的網站、媒體：羅輯思維、得到、Medium、簡書、知乎。</li>
+                                </ul>
+                            </div>
+
+                            <div id="IAmGood" class="well">
+                                <h2>我的優勢</h2>
+                                <ul>
+                                    <li>因為興趣而學習 Web 開發</li>
+                                    <li>利用英文資源自學</li>
+                                    <li>喜歡邏輯推理</li>
+                                    <li>樂意合作解決問題</li>
+                                    <li>喜歡進步</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div> <!-- content end -->
