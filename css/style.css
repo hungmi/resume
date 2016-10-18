@@ -32,6 +32,16 @@ a {
 	padding: 30px;
 }
 
+.content .well {
+	background: white;
+	border: none;
+	box-shadow: none;
+}
+
+.content .wells-wrapper h2 {
+	font-weight: 200;
+}
+
 #nav {
 	padding: 30px;
 }
@@ -69,13 +79,13 @@ a {
 	.content {
 		padding: 0px;
 	}
+	.wells-wrapper {
+		padding: 0px;
+	}
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	body {
-		padding-top: 40px;
-	}
 	body,
 	.container {
 		width: 900px;	
@@ -83,9 +93,6 @@ a {
 }
 
 @media (min-width: 1200px) {
-	body {
-		padding-top: 40px;
-	}
 	body,
 	.container {
 		width: 1150px;	
@@ -96,9 +103,6 @@ a {
 }
 
 @media (min-width: 1450px) {
-	body {
-		padding-top: 40px;
-	}
 	body,
 	.container {
 		width: 1400px;	
