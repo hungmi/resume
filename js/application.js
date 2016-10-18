@@ -6,7 +6,7 @@ $(function(){
 	$("#reset").click(function(){
 		reset()
 	});
-	$(".nav a").click(function(){
+	$("#nav a").click(function(){
 		reset()
 		$shown_well = $($(this).attr('href'))
 		$shown_well.toggleClass('highlight')
