@@ -19,9 +19,27 @@ a {
 }
 
 #header h1{
+	margin-right: -100px;
 	margin-top: 0px;
-	font-weight: 200;
-	letter-spacing: 2px;
+	font-weight: 300;
+	letter-spacing: 100px;
+}
+
+#header h5 {
+	font-weight: 100;
+  margin: 35px auto 20px auto;
+  border-bottom: 1px solid white;
+  line-height: 1px;
+  width: 40%;
+}
+
+#header h5 > span {
+	font-weight: 100;
+	background: #222;
+	padding: 8px 16px 8px 18px;
+	border: 1px solid white;
+	letter-spacing: 3px;
+	font-size: 11px;
 }
 
 .no-padding-left {
@@ -81,6 +99,9 @@ a {
 	}
 	.wells-wrapper {
 		padding: 0px;
+	}
+	#header h5 {
+		width: 100%;
 	}
 }
 
