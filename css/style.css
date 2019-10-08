@@ -92,13 +92,15 @@ a {
 	font-size: 18px;
 }
 
-.avatar-wrapper {
-	margin-bottom: 30px;
-}
-
-#avatar {
+.avatar {
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px 30px auto;
 	border: 1px solid #555;
 	border-radius: 50%;
+	width: 160px;
+	height: 160px;
+	background-image: url('../images/me.jpg');
 }
 
 @media (max-width: 767px) {
