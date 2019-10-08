@@ -95,7 +95,8 @@ a {
 .avatar {
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 0px 30px auto;
+	margin: auto;
+	margin-bottom: 30px;
 	border: 1px solid #555;
 	border-radius: 50%;
 	width: 160px;
