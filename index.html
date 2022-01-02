@@ -263,28 +263,39 @@
                                     <li>改善部分外包程式效能问题及架构：补充相关测试、建立快取及优化 slow queries。</li>
                                     <li>权限采用 Pundit 进行管理，分别为房客、房东、房东助手提供不同的功能。</li>
                                     <li>从洽询房屋开始，房客可在网站上完成所有手续，包含入住后的缴交租金，退租时的押金退还。</li>
-                                    <li>初始专案为 Rails 4.1，目前已升级至 Rails 6.1，并搭配 Turbo & stimulus.js & esbuild 架构出最适合小团队进行开发之架构。</li>
+                                    <li>初始专案为 Rails 4.1，目前已升级至 Rails 6.1，并搭配 Turbo (<a href="https://dev.to/hungmi/webpacker-rails-app-jsbundling-rails-hotwire-4908">相关升级笔记</a>) & stimulus.js & esbuild 架构出最适合小团队进行开发之架构。</li>
                                     <li>测试采用 Minitest & Capybara，范围包含网站所有主要流程。</li>
                                     <li>全站使用 Rails i18n 标准架构制作双语，目前支援中英文。</li>
-                                    <li>2016 年 AppWorks 入选</li>
+                                    <li>AppWorks 加速器第 12 届。</li>
                                 </ul>
 
                                 <hr>
 
                                 <h3><a target="_blank" href="https://polish-design.com.tw/">Polish Design</a>：磨人创意网路有限公司</h3>
-                                <ul>
-                                    <li>开发游戏橘子集团 <a target="_blank" href="https://cso.beanfun.com/">绝对武力</a> 官方网站：负责专案管理、后端 API 协调及部分前端工程。</li>
-                                    <li>协同开发四合愿 <a target="_blank" href="https://fourdesire.polish-design.com.tw/">时间拖延器</a> 行销网站：负责自动化测试、后端工程及伺服器部署。</li>
-                                    <li>协同开发 <a target="_blank" href="http://wassup.com.tw/">Wassup 猫砂</a> 购物网站：负责金流串接、自动化测试、后端工程及伺服器部署。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>配件销售统计及报价分析</h3>
-                                <ul>
-                                    <li>整合生产及销售、财务资料，提供预算规划及价格分析供董事会决策。</li>
-                                    <li>协助厂商及工厂导入生产、采购、仓管等部门。</li>
-                                    <li>规划表单系统，可设定多级审批，协助无纸化行政流程。</li>
+                                <ul class="pl-sm-20">
+                                    <li>
+                                        与前端工程师、设计师一同尝试创业，成立接案公司。此期间我负责功能规划、所有后端工程、伺服器部署、自动化测试，及部分前端工程。
+                                        <ul>
+                                            <li>游戏橘子集团 <a target="_blank" href="https://cso.beanfun.com/">绝对武力</a> 官方网站：负责专案管理、后端 API 协调及部分前端工程。
+                                                <ul>
+                                                    <li>此网站我负责与游戏橘子内部 MIS 协作制定后台操作逻辑及后端 Api，并设定 Postman mock server 方便伙伴一同开发。</li>
+                                                    <li>工程部分我与前端伙伴分头开发再整合。</li>
+                                                </ul>
+                                            </li>
+                                            <li>四合愿 <a target="_blank" href="https://fourdesire.polish-design.com.tw/">时间拖延器</a> 上市暖身网站：
+                                                <ul>
+                                                    <li>此网站为一款小游戏，整体操作过程较多变化，因此我透过 GTM 客制化搜集数据，方便客户行销部门透过数字理解使用者投入时间、游戏过程数据。</li>
+                                                    <li>除此之外我负责后端工程及部署。</li>
+                                                </ul>
+                                            </li>
+                                            <li><a target="_blank" href="http://wassup.com.tw/">Wassup 猫砂</a> 购物网站：
+                                                <ul>
+                                                    <li>此网站我将较复杂的前端拆开与伙伴以 Vue.js 串接 Api 制作，其余部分我以 Rails 直接 SSR 渲染，取得开发速度的平衡。自动化测试包含全站购物流程（Vue.js 的部分以浏览器自动测试）。</li>
+                                                    <li>在购物功能上相别一般电商，另有提供可弹性发货的不固定频率订阅方案。</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
 
                                 <hr>
@@ -295,6 +306,15 @@
                                     <li>透过即时储存、同步的入库介面，让作业人员可以同时进行。</li>
                                     <li>自动产生报表协助快速报关、宅配，避免人工错误且节省大量人工。</li>
                                     <li>重新规划出货流程，厂商出货效率大幅提升。</li>
+                                </ul>
+
+                                <hr>
+
+                                <h3>配件销售统计及报价分析</h3>
+                                <ul>
+                                    <li>整合生产及销售、财务资料，提供预算规划及价格分析供董事会决策。</li>
+                                    <li>协助厂商及工厂导入生产、采购、仓管等部门。</li>
+                                    <li>规划表单系统，可设定多级审批，协助无纸化行政流程。</li>
                                 </ul>
 
                                 <hr>
