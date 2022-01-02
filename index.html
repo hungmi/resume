@@ -40,7 +40,7 @@
         <div class="row">
             <nav class="col-md-3 col-sm-4 well" id="nav">
                 <div class="text-center avatar"></div>
-                <p style="margin-bottom: 20px;">嗨！你好，我叫鴻銘，我熱愛參與開發直效的網站及系統，並且十分享受每天使用 Ruby 及 Rails。目前以開發 <a target="_blank" href="https://www.zuker.com.tw" alt="Zuker">Zuker</a> 為主，接案為輔。</p>
+                <p style="margin-bottom: 20px;">嗨！你好，我叫鴻銘，我熱愛參與開發直效的網站及系統，並且十分享受每天使用 Ruby 及 Rails。</p>
                 <h5 class="subtitle">聯絡資訊</h5>
                 <ul>
                     <li>蔡鴻銘</li>
@@ -80,28 +80,40 @@
                                     <li>改善部分外包程式效能問題及架構：補充相關測試、建立快取及優化 slow queries。</li>
                                     <li>權限採用 Pundit 進行管理，分別為房客、房東、房東助手提供不同的功能。</li>
                                     <li>從洽詢房屋開始，房客可在網站上完成所有手續，包含入住後的繳交租金，退租時的押金退還。</li>
-                                    <li>初始專案為 Rails 4.1，目前已升級至 Rails 6.1，並搭配 Turbo & stimulus.js & esbuild 架構出最適合小團隊進行開發之架構。</li>
+                                    <li>初始專案為 Rails 4.1，目前已升級至 Rails 6.1，並搭配 Turbo (<a href="https://dev.to/hungmi/webpacker-rails-app-jsbundling-rails-hotwire-4908">相關升級筆記</a>) & stimulus.js & esbuild 架構出最適合小團隊進行開發之架構。</li>
                                     <li>測試採用 Minitest & Capybara，範圍包含網站所有主要流程。</li>
                                     <li>全站使用 Rails i18n 標準架構製作雙語，目前支援中英文。</li>
-                                    <li>2016 年 AppWorks 入選</li>
+                                    <li>AppWorks 加速器第 12 屆。</li>
                                 </ul>
 
                                 <hr>
 
                                 <h3><a target="_blank" href="https://polish-design.com.tw/">Polish Design</a>：磨人創意網路有限公司</h3>
                                 <ul>
-                                    <li>開發遊戲橘子集團 <a target="_blank" href="https://cso.beanfun.com/">絕對武力</a> 官方網站：負責專案管理、後端 API 協調及部分前端工程。</li>
-                                    <li>協同開發四合願 <a target="_blank" href="https://fourdesire.polish-design.com.tw/">時間拖延器</a> 行銷網站：負責自動化測試、後端工程及伺服器部署。</li>
-                                    <li>協同開發 <a target="_blank" href="http://wassup.com.tw/">Wassup 貓砂</a> 購物網站：負責金流串接、自動化測試、後端工程及伺服器部署。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>配件銷售統計及報價分析</h3>
-                                <ul>
-                                    <li>整合生產及銷售、財務資料，提供預算規劃及價格分析供董事會決策。</li>
-                                    <li>協助廠商及工廠導入生產、採購、倉管等部門。</li>
-                                    <li>規劃表單系統，可設定多級審批，協助無紙化行政流程。</li>
+                                    <li>
+                                        與前端工程師、設計師一同嘗試創業，成立接案公司。此期間我負責功能規劃、所有後端工程、伺服器部署、自動化測試，及部分前端工程。
+                                        <ul>
+                                            <li>
+                                                開發遊戲橘子集團 <a target="_blank" href="https://cso.beanfun.com/">絕對武力</a> 官方網站：負責專案管理、後端 API 協調及部分前端工程。
+                                                <ul>
+                                                    <li>此網站我負責與遊戲橘子內部 MIS 協作制定後台操作邏輯及後端 Api，並設定 Postman mock server 方便夥伴一同開發。</li>
+                                                    <li>工程部分我與前端夥伴分頭開發再整合。</li>
+                                                </ul>
+                                            </li>
+                                            <li>協同開發四合願 <a target="_blank" href="https://fourdesire.polish-design.com.tw/">時間拖延器</a> 上市暖身網站：
+                                                <ul>
+                                                    <li>此網站為一款小遊戲，整體操作過程較多變化，因此我透過 GTM 客製化搜集數據，方便客戶行銷部門透過數字理解使用者投入時間、遊戲過程數據。</li>
+                                                    <li>除此之外我負責後端工程及部署。</li>
+                                                </ul>
+                                            </li>
+                                            <li>協同開發 <a target="_blank" href="http://wassup.com.tw/">Wassup 貓砂</a> 購物網站：
+                                                <ul>
+                                                    <li>此網站我將較複雜的前端拆開與夥伴以 Vue.js 串接 Api 製作，其餘部分我以 Rails 直接 SSR 渲染，取得開發速度的平衡。自動化測試包含全站購物流程（Vue.js 的部分以瀏覽器自動測試）。</li>
+                                                    <li>在購物功能上相別一般電商，另有提供可彈性發貨的不固定頻率訂閱方案。</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
 
                                 <hr>
@@ -112,6 +124,15 @@
                                     <li>透過即時儲存、同步的入庫介面，讓作業人員可以同時進行。</li>
                                     <li>自動產生報表協助快速報關、宅配，避免人工錯誤且節省大量人工。</li>
                                     <li>重新規劃出貨流程，廠商出貨效率大幅提升。</li>
+                                </ul>
+
+                                <hr>
+
+                                <h3>配件銷售統計及報價分析</h3>
+                                <ul>
+                                    <li>整合生產及銷售、財務資料，提供預算規劃及價格分析供董事會決策。</li>
+                                    <li>協助廠商及工廠導入生產、採購、倉管等部門。</li>
+                                    <li>規劃表單系統，可設定多級審批，協助無紙化行政流程。</li>
                                 </ul>
 
                                 <hr>
