@@ -40,7 +40,7 @@
         <div class="row">
             <nav class="col-md-3 col-sm-4 well" id="nav">
                 <div class="text-center avatar"></div>
-                <p style="margin-bottom: 20px;">嗨！你好，我叫鴻銘，我原本是機械工程師。在一次工作中我需要製作系統以優化工廠產能使用率，於是我第一次使用 Rails，並深深的被它吸引。在那之後，我透過創業及接案不停開發網站及系統，直到現在我依舊十分享受每天使用 Ruby 及 Rails。</p>
+                <p style="margin-bottom: 20px;">嗨！你好，我叫鴻銘，我原本是機械工程師。在一次工作中我需要製作系統以優化工廠產能使用率，於是我第一次使用 Rails，並深深的被它吸引。在那之後我參與了多個團隊，主要負責協助改善流程，提升效率。</p>
                 <h5 class="subtitle">聯絡資訊</h5>
                 <ul>
                     <li>蔡鴻銘</li>
@@ -78,41 +78,37 @@
                             <h2>主要成果</h2>
                             <ul class="no-padding-left">
                                 <h3><a target="_blank" href="https://www.zuker.com.tw" alt="Zuker">Zuker</a>：招租網站暨租賃管理系統</h3>
-                                <p>台北的包租代管公司。我們想盡辦法用越少人管理越多房間以達到最大利潤。因此從創業初期就自行開發系統。直到現在，以十人的團隊管理超過兩百間房，同時經營超過十萬訂閱的 YouTube 頻道。</p>
                                 <ul>
-                                    <li>與各部門共同釐清招租、簽約及管理問題，轉化為功能規劃，安排合適的開發順序，逐步交付適當的功能協助整間公司遠端協作。</li>
-                                    <li>曾導入外包團隊，後續由我改善其程式效能問題及架構：補充相關測試、建立快取及優化 slow queries。</li>
-                                    <li>權限採用 Pundit 進行管理，分別為房客、房東、房東助手提供不同的功能。</li>
-                                    <li>從洽詢房屋開始，房客可在網站上完成所有手續，包含入住後的繳交租金，退租時的押金退還。</li>
-                                    <li>初始專案為 Rails 4.1，目前已升級至 Rails 6.1，並搭配 Turbo (<a href="https://dev.to/hungmi/webpacker-rails-app-jsbundling-rails-hotwire-4908">相關升級筆記</a>) & stimulus.js & esbuild 架構出最適合小團隊進行開發之架構。</li>
-                                    <li>測試採用 Minitest & Capybara，範圍包含網站所有主要流程。</li>
-                                    <li>全站使用 Rails i18n 標準架構製作雙語，目前支援中英文。</li>
+                                    <li>對內我進行跨部門溝通，創造系統解決協作問題，目前團隊 10 人可管理超過 200 間房，同時經營十萬訂閱 YouTube 頻道。</li>
+                                    <li>對外我規劃房客可完成全套租屋手續的雙語平台，並於管理端提供房東、房東助手分工協作管理。</li>
+                                    <li>我曾接手外包團隊的程式，解決不堪使用的效能並調整架構。</li>
+                                    <li>避免前後端分離，導入 Rails 前端生態系 (<a href="https://dev.to/hungmi/webpacker-rails-app-jsbundling-rails-hotwire-4908">相關升級筆記</a>) & esbuild，最大化一人開發成果。</li>
                                     <li>AppWorks 加速器第 12 屆。</li>
                                 </ul>
 
                                 <hr>
 
                                 <h3><a target="_blank" href="https://polish-design.com.tw/">Polish Design</a>：磨人創意網路有限公司</h3>
-                                <p>由於我想維持遠端工作，我嘗試了與前端夥伴、設計夥伴一同成立接案公司。為了達到客戶期待，我不只負責所有後端工程、伺服器部署，也主導多個網站的功能規劃，並導入自動化測試，及協助部分前端工程。</p>
+                                <p>創業成立接案公司。我負責所有後端工程、伺服器部署，也主導多個網站的功能規劃，並導入自動化測試，及協助部分前端工程。</p>
                                 <ul class="pl-sm-20">
                                     <li>重點案例：
                                         <ol>
                                             <li>遊戲橘子集團 <a target="_blank" href="https://cso.beanfun.com/">絕對武力</a> 官方網站：負責專案管理、後端 API 協調及部分前端工程。
                                                 <ul>
-                                                    <li>此網站我負責與遊戲橘子內部 MIS 協作制定後台操作邏輯及後端 Api，並設定 Postman mock server 方便夥伴一同開發。</li>
-                                                    <li>工程部分我與前端夥伴分頭開發再整合。</li>
+                                                    <li>我負責與遊戲橘子內部 MIS 制定後台操作邏輯及後端 Api，並設定 Postman mock server 方便夥伴一同開發。</li>
+                                                    <li>工程部分我與前端夥伴協作開發。</li>
                                                 </ul>
                                             </li>
                                             <li>四合願 <a target="_blank" href="https://fourdesire.polish-design.com.tw/">時間拖延器</a> 上市暖身網站：
                                                 <ul>
-                                                    <li>此網站為一款小遊戲，整體操作過程較多變化，因此我透過 GTM 客製化搜集數據，方便客戶行銷部門透過數字理解使用者投入時間、遊戲過程數據。</li>
-                                                    <li>除此之外我負責後端工程及部署。</li>
+                                                    <li>此網站為小遊戲，因此我透過 GTM 客製化搜集數據，方便客戶行銷部門透過數字理解使用者投入時間、遊戲過程數據。</li>
                                                 </ul>
                                             </li>
                                             <li><a target="_blank" href="http://wassup.com.tw/">Wassup 貓砂</a> 購物網站：
                                                 <ul>
-                                                    <li>此網站我將較複雜的前端拆開與夥伴以 Vue.js 串接 Api 製作，其餘部分我以 Rails 直接 SSR 渲染，取得開發速度的平衡。自動化測試包含全站購物流程（Vue.js 的部分以瀏覽器自動測試）。</li>
-                                                    <li>在購物功能上相別一般電商，另有提供可彈性發貨的不固定頻率訂閱方案。</li>
+                                                    <li>前端為 Rails SSR 混搭 Vue.js 製作。</li>
+                                                    <li>自動化測試包含全站購物邏輯，Vue.js 的部分以 Capybara 測試。</li>
+                                                    <li>購物功能上我設計了可彈性發貨的不固定頻率訂閱方案，提升客戶回購率並讓公司現金流更健康。</li>
                                                 </ul>
                                             </li>
                                         </ol>
@@ -123,36 +119,10 @@
 
                                 <h3>跨境物流管理系統</h3>
                                 <ul>
-                                    <li>協助廠商重新規劃入庫、出貨、對帳流程。廠商出貨效率大幅提升。</li>
-                                    <li>透過即時儲存、同步的入庫介面，讓作業人員可以同時進行。</li>
-                                    <li>自動產生報表協助快速報關、宅配，避免人工錯誤且節省大量人工。</li>
-                                    <li>重新規劃出貨流程，廠商出貨效率大幅提升。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>配件銷售統計及報價分析</h3>
-                                <ul>
-                                    <li>整合生產及銷售、財務資料，提供預算規劃及價格分析供董事會決策。</li>
-                                    <li>協助廠商及工廠導入生產、採購、倉管等部門。</li>
-                                    <li>規劃表單系統，可設定多級審批，協助無紙化行政流程。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>精密加工生產管理系統 ( 部分使用 Excel VBA，部分使用 Rails )</h3>
-                                <ul>
-                                    <li>自動彙整工單進度、提醒追蹤，降低生產管理流程錯誤率，更好利用產能，降低機器閒置率，提高公司營收。</li>
-                                    <li>提供現場品管人員簡單易用的庫存管理登記及查詢。</li>
-                                    <li>將原本需人工比對的生產及庫存資料利用程式標記出資料相異處，協助人員快速進行正確的判讀。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>其他</h3>
-                                <ul>
-                                    <li><a target="_blank" href="https://crowdwatch.tw/" alt="CrowdWatch">Crowd Watch</a>：群眾觀點</li>
-                                    <li><a target="_blank" href="https://www.getmii.today/" alt="Getmii">Getmii</a>：台灣首家設計飾品專賣</li>
+                                    <li>創造一B2B物流管理系統，解決原本無法按時出貨的窘境。</li>
+                                    <li>採用現代化的網站架構，節省了 90% 的系統費用。</li>
+                                    <li>系統邏輯基於原本作業流程，所有員工無痛上手。</li>
+                                    <li>還有其他類似經驗：精密加工生產管理系統、配件銷售統計及報價分析</li>
                                 </ul>
                             </ul>
                         </div>
@@ -227,7 +197,7 @@
         <div class="row">
             <nav class="col-md-3 col-sm-4 well" id="nav">
                 <div class="text-center avatar"></div>
-                <p style="margin-bottom: 20px;">嗨！你好，我叫鸿铭，我热爱参与开发直效的网站及系统，并且十分享受每天使用 Ruby 及 Rails。</p>
+                <p style="margin-bottom: 20px;">嗨！你好，我叫鸿铭，我原本是机械工程师。在一次工作中我需要制作系统以优化工厂产能使用率，于是我第一次使用 Rails，并深深的被它吸引。在那之后我参与了多个团队，主要负责协助改善流程，提升效率。</p>
                 <h5 class="subtitle">联络资讯</h5>
                 <ul>
                     <li>蔡鸿铭</li>
@@ -265,41 +235,37 @@
                             <h2>主要成果</h2>
                             <ul class="no-padding-left">
                                 <h3><a target="_blank" href="https://www.zuker.com.tw" alt="Zuker">Zuker</a>：招租网站暨租赁管理系统</h3>
-                                <p>台北的包租代管公司。我们想尽办法用越少人管理越多房间以达到最大利润。因此从创业初期就自行开发系统。直到现在，以十人的团队管理超过两百间房，同时经营超过十万订阅的 YouTube 频道。</p>
                                 <ul>
-                                    <li>与各部门共同厘清招租、签约及管理问题，转化为功能规划，安排合适的开发顺序，逐步交付适当的功能协助整间公司远端协作。</li>
-                                    <li>曾导入外包团队，后续由我改善其程式效能问题及架构：补充相关测试、建立快取及优化 slow queries。</li>
-                                    <li>权限采用 Pundit 进行管理，分别为房客、房东、房东助手提供不同的功能。</li>
-                                    <li>从洽询房屋开始，房客可在网站上完成所有手续，包含入住后的缴交租金，退租时的押金退还。</li>
-                                    <li>初始专案为 Rails 4.1，目前已升级至 Rails 6.1，并搭配 Turbo (<a href="https://dev.to/hungmi/webpacker-rails-app-jsbundling-rails-hotwire-4908">相关升级笔记</a>) & stimulus.js & esbuild 架构出最适合小团队进行开发之架构。</li>
-                                    <li>测试采用 Minitest & Capybara，范围包含网站所有主要流程。</li>
-                                    <li>全站使用 Rails i18n 标准架构制作双语，目前支援中英文。</li>
+                                    <li>对内我进行跨部门沟通，创造系统解决协作问题，目前团队 10 人可管理超过 200 间房，同时经营十万订阅 YouTube 频道。</li>
+                                    <li>对外我规划房客可完成全套租屋手续的双语平台，并于管理端提供房东、房东助手分工协作管理。</li>
+                                    <li>我曾接手外包团队的程式，解决不堪使用的效能并调整架构。</li>
+                                    <li>避免前后端分离，导入 Rails 前端生态系 (<a href="https://dev.to/hungmi/webpacker-rails-app-jsbundling-rails-hotwire-4908">相关升级笔记</a>) & esbuild，最大化一人开发成果。</li>
                                     <li>AppWorks 加速器第 12 届。</li>
                                 </ul>
 
                                 <hr>
 
                                 <h3><a target="_blank" href="https://polish-design.com.tw/">Polish Design</a>：磨人创意网路有限公司</h3>
-                                <p>由于我想维持远端工作，我尝试了与前端伙伴、设计伙伴一同成立接案公司。为了达到客户期待，我不只负责所有后端工程、伺服器部署，也主导多个网站的功能规划，并导入自动化测试，及协助部分前端工程。</p>
+                                <p>创业成立接案公司。我负责所有后端工程、伺服器部署，也主导多个网站的功能规划，并导入自动化测试，及协助部分前端工程。</p>
                                 <ul class="pl-sm-20">
                                     <li>重点案例：
                                         <ol>
                                             <li>游戏橘子集团 <a target="_blank" href="https://cso.beanfun.com/">绝对武力</a> 官方网站：负责专案管理、后端 API 协调及部分前端工程。
                                                 <ul>
-                                                    <li>此网站我负责与游戏橘子内部 MIS 协作制定后台操作逻辑及后端 Api，并设定 Postman mock server 方便伙伴一同开发。</li>
-                                                    <li>工程部分我与前端伙伴分头开发再整合。</li>
+                                                    <li>我负责与游戏橘子内部 MIS 制定后台操作逻辑及后端 Api，并设定 Postman mock server 方便伙伴一同开发。</li>
+                                                    <li>工程部分我与前端伙伴协作开发。</li>
                                                 </ul>
                                             </li>
                                             <li>四合愿 <a target="_blank" href="https://fourdesire.polish-design.com.tw/">时间拖延器</a> 上市暖身网站：
                                                 <ul>
-                                                    <li>此网站为一款小游戏，整体操作过程较多变化，因此我透过 GTM 客制化搜集数据，方便客户行销部门透过数字理解使用者投入时间、游戏过程数据。</li>
-                                                    <li>除此之外我负责后端工程及部署。</li>
+                                                    <li>此网站为小游戏，因此我透过 GTM 客制化搜集数据，方便客户行销部门透过数字理解使用者投入时间、游戏过程数据。</li>
                                                 </ul>
                                             </li>
                                             <li><a target="_blank" href="http://wassup.com.tw/">Wassup 猫砂</a> 购物网站：
                                                 <ul>
-                                                    <li>此网站我将较复杂的前端拆开与伙伴以 Vue.js 串接 Api 制作，其余部分我以 Rails 直接 SSR 渲染，取得开发速度的平衡。自动化测试包含全站购物流程（Vue.js 的部分以浏览器自动测试）。</li>
-                                                    <li>在购物功能上相别一般电商，另有提供可弹性发货的不固定频率订阅方案。</li>
+                                                    <li>前端为 Rails SSR 混搭 Vue.js 制作。</li>
+                                                    <li>自动化测试包含全站购物逻辑，Vue.js 的部分以 Capybara 测试。</li>
+                                                    <li>购物功能上我设计了可弹性发货的不固定频率订阅方案，提升客户回购率并让公司现金流更健康。</li>
                                                 </ul>
                                             </li>
                                         </ol>
@@ -310,36 +276,10 @@
 
                                 <h3>跨境物流管理系统</h3>
                                 <ul>
-                                    <li>协助厂商重新规划入库、出货、对帐流程。厂商出货效率大幅提升。</li>
-                                    <li>透过即时储存、同步的入库介面，让作业人员可以同时进行。</li>
-                                    <li>自动产生报表协助快速报关、宅配，避免人工错误且节省大量人工。</li>
-                                    <li>重新规划出货流程，厂商出货效率大幅提升。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>配件销售统计及报价分析</h3>
-                                <ul>
-                                    <li>整合生产及销售、财务资料，提供预算规划及价格分析供董事会决策。</li>
-                                    <li>协助厂商及工厂导入生产、采购、仓管等部门。</li>
-                                    <li>规划表单系统，可设定多级审批，协助无纸化行政流程。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>精密加工生产管理系统 ( 部分使用 Excel VBA，部分使用 Rails )</h3>
-                                <ul>
-                                    <li>自动汇整工单进度、提醒追踪，降低生产管理流程错误率，更好利用产能，降低机器闲置率，提高公司营收。</li>
-                                    <li>提供现场品管人员简单易用的库存管理登记及查询。</li>
-                                    <li>将原本需人工比对的生产及库存资料利用程式标记出资料相异处，协助人员快速进行正确的判读。</li>
-                                </ul>
-
-                                <hr>
-
-                                <h3>其他</h3>
-                                <ul>
-                                    <li><a target="_blank" href="https://crowdwatch.tw/" alt="CrowdWatch">Crowd Watch</a>：群众观点</li>
-                                    <li><a target="_blank" href="https://www.getmii.today/" alt="Getmii">Getmii</a>：台湾首家设计饰品专卖</li>
+                                    <li>创造一B2B物流管理系统，解决原本无法按时出货的窘境。</li>
+                                    <li>采用现代化的网站架构，节省了 90% 的系统费用。</li>
+                                    <li>系统逻辑基于原本作业流程，所有员工无痛上手。</li>
+                                    <li>还有其他类似经验：精密加工生产管理系统、配件销售统计及报价分析</li>
                                 </ul>
                             </ul>
                         </div>
