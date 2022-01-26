@@ -1,19 +1,19 @@
 $(function(){
-	var All = $(".well");
+	var all = $(".well");
 	var reset = function(){
-		All.removeClass('highlight')
+		all.removeClass('highlight')
 	}
 	$("#reset").click(function(){
 		reset()
 	});
 	$("#nav a").click(function(){
 		reset()
-		$shown_well = $($(this).attr('href'))
-		$shown_well.toggleClass('highlight')
+		$shownWell = $($(this).attr('href'))
+		$shownWell.toggleClass('highlight')
 	});
-	if (location.search.match(/\en=true/)) {
-		$(".zh-tw").hide()
-	} else {
+	if (location.search.match(/\zh-tw=true/)) {
 		$(".en").hide()
+	} else {
+		$(".zh-tw").hide()
 	}
 });
