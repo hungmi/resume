@@ -187,18 +187,23 @@
             </div> <!-- content end -->
         </div>
     </div>
-    <div class="container-fluid en">
-        <div class="row">
-            <div id="header" style="text-align: center;">
-                <h1>Hung-Ming Tsai</h1>
-                <h5><span>Web Developer</span></h5>
-            </div>
-        </div>
-        <div class="row">
-            <nav class="col-md-3 col-sm-4 well" id="nav">
-                <div class="text-center avatar"></div>
+    <main class="container-fluid en">
+        <header id="header" class="text-center row hidden-print">
+            <h1>Hung-Ming Tsai</h1>
+            <h5><span>Web Developer</span></h5>
+        </header>
+
+        <header class="visible-print">
+            <h1>Hung-Ming Tsai</h1>
+        </header>
+
+        <section class="row">
+            <div class="col-md-3 col-sm-12 well well-wrapper">
+                <div class="text-center avatar hidden-print"></div>
+
                 <p style="margin-bottom: 20px;">Hey! I'm Hungmi. I met Rails when I was a mechanical engineer. After that, I have help many clients to be way more productive than their competitors. I have experiences with full stack developement in Ruby on Rails, and commnucations with stakeholders.</p>
-                <h5 class="subtitle">Contact Info</h5>
+
+                <h5 class="subtitle hidden-print">Contact Info</h5>
                 <ul>
                     <li><a href="mailto:hungmihungmi@gmail.com">hungmihungmi@gmail.com</a></li>
                     <li>
@@ -207,24 +212,28 @@
                     </li>
                 </ul>
 
-                <h5 class="subtitle">Online presence</h5>
-                <ul>
+                <h5 class="subtitle hidden-print">Online presence</h5>
+                <ul class="hidden-print">
                     <li><a target="_blank" href="https://github.com/hungmi">GitHub</a></li>
-                    <li><a target="_blank" href="https://www.cakeresume.com/me/hungmihungmi">Me on CakeResume</a></li>  
                     <li><a target="_blank" href="https://polish-design.com.tw/" alt="Polish Design: freelance agency">Polish Design</a></li>
                     <li><a target="_blank" href="https://www.zuker.com.tw" alt="Zuker">Zuker</a></li>
                 </ul>
 
-                <a href="?zh-cn=false">&#8594; 繁中版</a>
-            </nav> <!-- nav end -->
+                <a class="hidden-print" href="?zh-cn=false">&#8594; 繁中版</a>
+            </div>
 
-            <div class="col-md-9 col-sm-8 content">
+            <div class="col-md-9 col-sm-12 content">
                 <div class="row">
                     <div class="col-xs-12 wells-wrapper">
                         <div id="work" class="well">
                             <h2>Experience</h2>
                             <ul class="no-padding-left">
-                                <h3><a target="_blank" href="https://www.zuker.com.tw" alt="Zuker">Zuker</a>:  international house rental platform</h3>
+                                <h3 class="h4">
+                                    <span class="hidden-print">
+                                        <a target="_blank" href="https://www.zuker.com.tw" alt="Zuker">Zuker</a>: international house rental platform
+                                    </span>
+                                    <span class="visible-print">Zuker</span>
+                                </h3>
                                 <ul>
                                     <li>Initiated a house rental platform to manage international rentals.</li>
                                     <li>Communicated with a remote team of 10 people to develop an efficient rental management system.</li>
@@ -235,32 +244,32 @@
 
                                 <hr>
 
-                                <h3><a target="_blank" href="https://polish-design.com.tw/">Polish Design</a>: freelance agency</h3>
-                                <p>I was responsible for web developments and project managements.</p>
-                                <ul class="pl-sm-20">
-                                    <li>Achievements:
-                                        <ol>
-                                            <li>Rebuilt <a target="_blank" href="https://cso.beanfun.com/">the Counter-Strike Online official website</a> for the Gamania Group.
-                                                <ul>
-                                                    <li>Negotiated with the product owner to ensure all requirements are met under great developer experiences.</li>
-                                                    <li>Designed APIs to support the new website while also compatible with the legacy data.</li>
-                                                    <li>Developed the front end and animations.</li>
-                                                </ul>
-                                            </li>
-                                            <li><a target="_blank" href="https://fourdesire.polish-design.com.tw/">Delaytimer</a>: warm up marketing for a new mobile app by <a target="_blank" href="https://fourdesire.com">Fourdesire</a>.
-                                                <ul>
-                                                    <li>Analyzed the user sessions with Google Tag Manager to prove we have exceed the client's expectations.</li>
-                                                </ul>
-                                            </li>
-                                            <li><a target="_blank" href="http://wassup.com.tw/">Wassup</a>: E-commerce
-                                                <ul>
-                                                    <li>Implemented a flexible and refundable subscription service which increases customer retention to the next level.</li>
-                                                    <li>Collaborated with a Vue.js developer to provide excellent user experiences under minimum cost, also tested with Capybara to deliver high quality results.</li>
-                                                </ul>
-                                            </li>
-                                        </ol>
+                                <h3 class="h4">
+                                    <span class="hidden-print">
+                                        <a target="_blank" href="https://polish-design.com.tw/">Polish Design</a>: freelance agency
+                                    </span>
+                                    <span class="visible-print">Polish Design</span>
+                                </h3>
+                                <ol>
+                                    <li>Rebuilt <a target="_blank" href="https://cso.beanfun.com/">the Counter-Strike Online official website</a> for the Gamania Group.
+                                        <ul>
+                                            <li>Negotiated with the product owner to ensure all requirements are met under great developer experiences.</li>
+                                            <li>Designed APIs to support the new website while also compatible with the legacy data.</li>
+                                            <li>Developed the front end and animations.</li>
+                                        </ul>
                                     </li>
-                                </ul>
+                                    <li><a target="_blank" href="https://fourdesire.polish-design.com.tw/">Delaytimer</a>: warm up marketing for a new mobile app by <a target="_blank" href="https://fourdesire.com">Fourdesire</a>.
+                                        <ul>
+                                            <li>Analyzed the user sessions with Google Tag Manager to prove we have exceed the client's expectations.</li>
+                                        </ul>
+                                    </li>
+                                    <li><a target="_blank" href="http://wassup.com.tw/">Wassup</a>: E-commerce
+                                        <ul>
+                                            <li>Implemented a flexible and refundable subscription service which increases customer retention to the next level.</li>
+                                            <li>Collaborated with a Vue.js developer to provide excellent user experiences under minimum cost, also tested with Capybara to deliver high quality results.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
 
                                 <hr>
 
@@ -286,8 +295,8 @@
                     </div>
                 </div>
             </div> <!-- content end -->
-        </div>
-    </div>
+        </section>
+    </main>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

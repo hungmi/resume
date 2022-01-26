@@ -71,26 +71,27 @@ body.zh-tw #header h1{
 	font-weight: 200;
 }
 
-#nav {
+.well-wrapper {
 	padding: 30px;
+	margin-bottom: 0;
 }
 
-#nav hr {
+.well-wrapper hr {
   border-top: 1px solid #ccc;
   margin: 5px 0px;
 }
 
-#nav ul {
+.well-wrapper ul {
 	padding-left: 0px;
 	margin-bottom: 20px;
 }
 
-#nav li {
+.well-wrapper li {
 	list-style: none;
 	padding: 3px 0px 7px 0px;
 }
 
-#nav .subtitle {
+.well-wrapper .subtitle {
 	font-weight: bold;
 	font-size: 18px;
 }
