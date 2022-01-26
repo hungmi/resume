@@ -5,7 +5,7 @@ body {
 }
 
 body, h1, h2, h3, h4, h5, p, a, textarea, input {
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: "Avenir", "Nunito Sans", -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, "PingFang TC", "Noto Sans TC", sans-serif;
 }
 
 a {
@@ -22,6 +22,9 @@ a {
 	margin-right: -22px;
 	margin-top: 0px;
 	font-weight: 300;
+}
+
+body.zh-tw #header h1{
 	letter-spacing: 22px;
 }
 
