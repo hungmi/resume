@@ -12,6 +12,13 @@ a {
 	color: #4c9ade;
 }
 
+@media print {
+   a[href]:after {
+      display: none;
+      visibility: hidden;
+   }
+}
+
 #header {
 	padding: 15px 30px;
 	background: #222;
