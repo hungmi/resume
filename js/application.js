@@ -11,9 +11,9 @@ $(function(){
 		$shownWell = $($(this).attr('href'))
 		$shownWell.toggleClass('highlight')
 	});
-	if (location.search.match(/\zh-tw=true/)) {
-		$(".en").hide()
-	} else {
+	if (location.search.match(/\en=true/)) {
 		$(".zh-tw").hide()
+	} else {
+		$(".en").hide()
 	}
 });
